@@ -39,6 +39,8 @@
   <commonPictures>CommonPicture.КартинкаЗаказы</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Админ</roles>
+  <commonModules>CommonModule.Подписки</commonModules>
+  <eventSubscriptions>EventSubscription.СообщениеОНоменклатура</eventSubscriptions>
   <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Поставщики</catalogs>
