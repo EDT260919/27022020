@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e02566c9-08fb-4ca1-8d28-464d416bd172">
+  <producedTypes>
+    <objectType typeId="5dc1da2a-598d-4dc7-9111-1c774293e2c2" valueTypeId="75fbfd89-8121-4803-9728-e77589745308"/>
+    <refType typeId="fd2deb39-6d4b-4583-b208-91916d95bb21" valueTypeId="d6c23be3-6738-4bd4-82d2-34c8ce0e57ca"/>
+    <selectionType typeId="28ecae1b-a253-42fe-80eb-877fe2daea07" valueTypeId="cfe2eccc-c0bc-4fa8-814c-3513476ba578"/>
+    <listType typeId="f63493c1-3ec3-45bc-8950-0bdd03c8c10b" valueTypeId="c91fbabd-8592-4301-9476-fa9c02a91e01"/>
+    <managerType typeId="5d93a6ca-a144-403c-8ada-db51e9195831" valueTypeId="d716105a-1e69-4223-b055-da5743997b01"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Пользователи.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="dbca35d4-9367-4b03-bb31-4b1e3925d9ca">
+    <name>ПолноеИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4b2e8a32-1257-4ded-bdae-11d1fa7dc3b7">
+    <producedTypes>
+      <objectType typeId="d90c99ca-1641-4bcd-910c-9f68c49d0863" valueTypeId="de860cd5-ef44-4b85-b07d-35236bff1569"/>
+      <rowType typeId="ea692647-ec56-48a0-98a3-79fde5450ca8" valueTypeId="77c30c29-f882-4fe1-8a5c-cddae758ce5d"/>
+    </producedTypes>
+    <name>ТаблицаПрав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица прав</value>
+    </synonym>
+    <attributes uuid="05a3c06f-a031-4ce4-aed3-34fb5b5b4449">
+      <name>ИмяРоли</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя роли</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="12b9caba-0e6c-4c6f-8ded-d0048ec067b6">
+      <name>Включена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Включена</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="da7c61cb-7f78-4c45-ba8a-0866ff56e8bd">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
